@@ -9,26 +9,26 @@
     <title>Bike Trail Tirol Beispiel</title>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <!-- Leaflet providers -->
     <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
 
     <!-- leaflet-elevation -->
-<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.css" />
-<script src="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.css" />
+    <script src="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.js"></script>
 
-    <!-- leaflet-elevation -->
-<script src="
-https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.js
-"></script>
-<link href="
-https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css
-" rel="stylesheet">
+    <!-- leaflet-minimap -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css" rel="stylesheet">
 
     <!-- eigene Stile und Hauptskript -->
     <link rel="stylesheet" href="main.css">
@@ -46,7 +46,10 @@ https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css
         </header>
         <article>
             <h1>Etappe 32: Imst – Marienbergjoch – Ehrwald</h1>
-            <p>Die anspruchsvolle Etappe führt auf 37 Kilometern von Imst über das Marienbergjoch nach Ehrwald. Dabei sind 1.380 Höhenmeter bergauf und 1.100 Höhenmeter bergab zu bewältigen – ein echter Härtetest für konditionsstarke Biker mit großartigen Ausblicken auf Zugspitze, Mieminger Kette und das Wettersteingebirge.</p>
+            <p>Die anspruchsvolle Etappe führt auf 37 Kilometern von Imst über das Marienbergjoch nach Ehrwald. Dabei
+                sind 1.380 Höhenmeter bergauf und 1.100 Höhenmeter bergab zu bewältigen – ein echter Härtetest für
+                konditionsstarke Biker mit großartigen Ausblicken auf Zugspitze, Mieminger Kette und das
+                Wettersteingebirge.</p>
 
             <div class="summary">
                 <div class="summary-badge" title="Fahrzeit">
@@ -74,23 +77,39 @@ https://cdn.jsdelivr.net/npm/leaflet-minimap@3.6.1/dist/Control.MiniMap.min.css
                     <i class="fa-solid fa-download"></i> <a href="data/etappe32.gpx">Download GPX</a>
                 </div>
             </div>
-            
+
             <select name="pulldown" id="pulldown"></select>
             <div id="map"></div>
             <div id="profile"></div>
 
             <h3>Streckenbeschreibung</h3>
             <p>
-            Zunächst hält man sich am Radwegweiser „5 Gurgltal“. Die Strecke verläuft den ersten Kilometer entlang des Gurglbachs und in Folge fährt man auf der gleichen Straße Richtung „Imst Zentrum“ weiter. Erst am nördlichen Stadtrand gelangt man wieder auf den Radwanderweg Nr. 5. Alternativ dazu kann die Stadt am Talboden auf dem Radweg umfahren werden. Auf den nächsten knapp 10 Kilometern bleibt man immer auf dem Radweg, der am Rande des Talbodens meist im Wald verläuft (5). Erst bei Erreichen der Straßenkehre zweigt man links Richtung Nassereith ab. Kurz vor der Ortschaft unterquert man die Bundesstraße auf dem Radwanderweg Nr. 4. Rechts vorbei am Hubschrauberlandeplatz fährt man in den Ortsteil Dormitz (1,5 Stunden ab dem Start) und weiter auf einer asphaltierten Straße ins Roßbachtal. Auf ca. 980m Seehöhe zweigt man scharf links ab „605 Marienbergjoch“ und gelangt nach einem Anstieg in den Weiler Aschland. Einen knappen Kilometer nach dem kleinen Dorf sollte man die Abzweigung links auf das Marienbergjoch nicht verpassen. Nun geht es durch einen Wald teilweise steil aufwärts vorbei an der Marienberg Alm auf das Marienbergjoch (3 Stunden ab Dormitz). Es folgt eine zunächst recht steile Abfahrt durch das Schigebiet bis kurz vor die Straße nach Biberwier, wo man auf den „Lärchenweg“ wechselt. Auf dem Panoramaweg radelt man nun leicht bergauf und -ab nach Ehrwald (1,5 Stunden ab Marienbergjoch).
+                Zunächst hält man sich am Radwegweiser „5 Gurgltal“. Die Strecke verläuft den ersten Kilometer entlang
+                des Gurglbachs und in Folge fährt man auf der gleichen Straße Richtung „Imst Zentrum“ weiter. Erst am
+                nördlichen Stadtrand gelangt man wieder auf den Radwanderweg Nr. 5. Alternativ dazu kann die Stadt am
+                Talboden auf dem Radweg umfahren werden. Auf den nächsten knapp 10 Kilometern bleibt man immer auf dem
+                Radweg, der am Rande des Talbodens meist im Wald verläuft (5). Erst bei Erreichen der Straßenkehre
+                zweigt man links Richtung Nassereith ab. Kurz vor der Ortschaft unterquert man die Bundesstraße auf dem
+                Radwanderweg Nr. 4. Rechts vorbei am Hubschrauberlandeplatz fährt man in den Ortsteil Dormitz (1,5
+                Stunden ab dem Start) und weiter auf einer asphaltierten Straße ins Roßbachtal. Auf ca. 980m Seehöhe
+                zweigt man scharf links ab „605 Marienbergjoch“ und gelangt nach einem Anstieg in den Weiler Aschland.
+                Einen knappen Kilometer nach dem kleinen Dorf sollte man die Abzweigung links auf das Marienbergjoch
+                nicht verpassen. Nun geht es durch einen Wald teilweise steil aufwärts vorbei an der Marienberg Alm auf
+                das Marienbergjoch (3 Stunden ab Dormitz). Es folgt eine zunächst recht steile Abfahrt durch das
+                Schigebiet bis kurz vor die Straße nach Biberwier, wo man auf den „Lärchenweg“ wechselt. Auf dem
+                Panoramaweg radelt man nun leicht bergauf und -ab nach Ehrwald (1,5 Stunden ab Marienbergjoch).
             </p>
 
         </article>
         <footer>
             <strong>Datenquellen:</strong>
             <nav>
-                <a href="https://www.wildganz.com/radfernweg-aut/bike-trail-tirol-etappe-32">Etappe 32: Imst – Marienbergjoch – Ehrwald</a> |
-                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_biketrailtirol">Opendata Bike Trail Tirol</a> |
-                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>
+                <a href="https://www.wildganz.com/radfernweg-aut/bike-trail-tirol-etappe-32">Etappe 32: Imst –
+                    Marienbergjoch – Ehrwald</a> |
+                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_biketrailtirol">Opendata Bike Trail
+                    Tirol</a> |
+                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_elektronischekartetirol">eGrundkarte
+                    Tirol</a>
             </nav>
         </footer>
     </main>
