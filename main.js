@@ -53,9 +53,9 @@ L.control.scale({
 
 //Etappennavigation üer pulldown
 
-let pullwon = document.querySelector("#pulldown");
-for(let etappe of ETAPPEN) {
-    pulldwon+= `
+let pulldown = document.querySelector("#pulldown");
+for (let etappe of ETAPPEN) {
+    pulldown.innerHTML += `
     <option value= "${etappe.user}">Etappe ${etappe.nr}: ${etappe.titel}</option>
     `;
 }
