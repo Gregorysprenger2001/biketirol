@@ -60,7 +60,7 @@ for (let etappe of ETAPPEN) {
         selected = "selected";
     }
     pulldown.innerHTML += `
-    <option value= "${etappe.user}">Etappe ${etappe.nr}: ${etappe.titel}</option>
+    <option ${selected} value= "${etappe.user}">Etappe ${etappe.nr}: ${etappe.titel}</option>
     `;
 }
 
@@ -82,5 +82,5 @@ pulldown.onchange = function(evt) {
 var gkTirol = new L.TileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
 var miniMap = new L.Control.MiniMap(gkTirol, {
     toggleDisplay: true,
-    
+
 }).addTo(map);
