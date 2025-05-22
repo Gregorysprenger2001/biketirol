@@ -50,3 +50,12 @@ L.control.layers({
 L.control.scale({
     imperial: false,
 }).addTo(map);
+
+//Etappennavigation üer pulldown
+
+let pullwon = document.querySelector("#pulldown");
+for(let etappe of ETAPPEN) {
+    pulldwon+= `
+    <option value= "${etappe.user}">Etappe ${etappe.nr}: ${etappe.titel}</option>
+    `;
+}
