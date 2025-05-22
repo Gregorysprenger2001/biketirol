@@ -84,3 +84,7 @@ var miniMap = new L.Control.MiniMap(gkTirol, {
     toggleDisplay: true,
 
 }).addTo(map);
+
+
+// or, add to an existing map:
+map.addControl(new L.Control.Fullscreen());
